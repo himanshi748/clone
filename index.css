@@ -1,0 +1,144 @@
+.utubeicon{
+    
+    margin-left: 300px;
+    margin-top: 10px;
+    position: relative;
+    width: 80px;
+    height: 40px;
+}
+.d-flex{
+  position: absolute;
+  top: 10px;
+  left: 600px;
+}
+
+.nav-item{
+  margin-left: 20px;
+}
+#myTab{
+  margin-left: 220px;
+}
+
+
+body {
+  background-color: #fbfbfb;
+}
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0; /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+
+
+
+.microphone{
+  margin: 10px;
+}
+
+.appicon{
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.baricon{
+  margin-left: 50px;
+}
+
+.settingicon{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.usericon{
+  margin-left: 20px;
+  margin-top: 10px;
+  color: skyblue;
+  border: 1px solid skyblue;
+  padding: 6px;
+  width: 200px;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+#sidebarMenu{
+  position: absolute;
+  
+}
+
+.container1{
+  position: relative;
+  left: 280px;
+  top: 25px;
+}
+
+.ads1{
+  font-size: 25px;
+  font-weight: bolder;
+  top: 33px;
+  position: relative;
+}
+
+.getitnow{
+  color: skyblue;
+  border: 1px solid skyblue;
+  font-size: 15px;
+  padding: 8px;
+  font-weight: bolder;
+  top: 20px;
+  position: relative;
+}
+.gif{
+  float: left;
+  left: 700px;
+}
+
+video {
+  max-width: 100%;
+}
+
+.videocard{
+  position: relative;
+  left: -100px;
+  top: 120px;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  margin: 5px;
+}
+.card{
+  margin: 10px;
+}
+.card:hover{
+  opacity: 80%;
+  box-shadow:1px 2px 3px 3px grey ;
+}
